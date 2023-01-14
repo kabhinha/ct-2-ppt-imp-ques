@@ -24,16 +24,18 @@ int main() {
         scanf("%f", &emps[i].sal);
     }
     for(int i=0; i<1; i++) {
-        printf("Name ");
-        puts(emps[i].name);
-        printf("City ");
-        puts(emps[i].city);
-        printf("Dept ");
-        puts(emps[i].dept);
-        printf("Dept ");
-        puts(emps[i].desig);
-        printf("Salary ");
-        printf("%f", emps[i].sal);
+        if(emps[i].sal>20000) {
+            printf("Name ");
+            puts(emps[i].name);
+            printf("City ");
+            puts(emps[i].city);
+            printf("Dept ");
+            puts(emps[i].dept);
+            printf("Dept ");
+            puts(emps[i].desig);
+            printf("Salary ");
+            printf("%f", emps[i].sal);
+        }
     }
     return 0;
 }
