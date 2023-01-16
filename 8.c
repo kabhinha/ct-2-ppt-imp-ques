@@ -7,14 +7,14 @@ int main() {
     if(r2==c1) {
         for(int i=0; i<r1; i++) {
             for(int j=0; j<c1; j++ ) {
-                printf("Enter element of  matrix 1's %d row and %d col: \n", i+1, j+1);
-                scanf("%d %d", &a[i][j]);
+                printf("Enter element of  matrix 1's %d row and %d col: \n", i, j);
+                scanf("%d", &a[i][j]);
             }
         }
         for(int i=0; i<r2; i++) {
             for(int j=0; j<c2; j++ ) {
-                printf("Enter element of  matrix 2's %d row and %d col: \n", i+1, j+1);
-                scanf("%d %d", &a[i][j]);
+                printf("Enter element of  matrix 2's %d row and %d col: \n", i, j);
+                scanf("%d", &b[i][j]);
             }
         }
         for(int i=0; i<r1; i++) {
